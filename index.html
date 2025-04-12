@@ -1,667 +1,955 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="en">
+  <head>
+    <!-- meta data -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <head>
-        <!-- meta data -->
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <!--font-family-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext"
+      rel="stylesheet"
+    />
 
-        <!--font-family-->
-		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&amp;subset=devanagari,latin-ext" rel="stylesheet">
-        
-        <!-- title of site -->
-        <title>Kiet</title>
+    <!-- title of site -->
+    <title>Kiet</title>
 
-        <!-- For favicon png -->
-		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
-       
-        <!--font-awesome.min.css-->
-        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <!-- For favicon png -->
+    <link
+      rel="shortcut icon"
+      type="image/icon"
+      href="assets/logo/favicon.png"
+    />
 
-		<!--flat icon css-->
-		<link rel="stylesheet" href="assets/css/flaticon.css">
+    <!--font-awesome.min.css-->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
 
-		<!--animate.css-->
-        <link rel="stylesheet" href="assets/css/animate.css">
+    <!--flat icon css-->
+    <link rel="stylesheet" href="assets/css/flaticon.css" />
 
-        <!--owl.carousel.css-->
-        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-		<link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-		
-        <!--bootstrap.min.css-->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-		
-		<!-- bootsnav -->
-		<link rel="stylesheet" href="assets/css/bootsnav.css" >	
-        
-        <!--style.css-->
-        <link rel="stylesheet" href="assets/css/style.css">
-        
-        <!--responsive.css-->
-        <link rel="stylesheet" href="assets/css/responsive.css">
-        
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-		
-        <!--[if lt IE 9]>
-			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
+    <!--animate.css-->
+    <link rel="stylesheet" href="assets/css/animate.css" />
 
-    </head>
-	
-	<body>
-		<!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-		
-		<!-- top-area Start -->
-		<header class="top-area">
-			<div class="header-area">
-				<!-- Start Navigation -->
-			    <nav class="navbar navbar-default bootsnav navbar-fixed dark no-background">
+    <!--owl.carousel.css-->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
 
-			        <div class="container">
+    <!--bootstrap.min.css-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 
-			            <!-- Start Header Navigation -->
-			            <div class="navbar-header">
-			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-			                    <i class="fa fa-bars"></i>
-			                </button>
-			                <a class="navbar-brand" href="index.html">Kiet</a>
-			            </div><!--/.navbar-header-->
-			            <!-- End Header Navigation -->
+    <!-- bootsnav -->
+    <link rel="stylesheet" href="assets/css/bootsnav.css" />
 
-			            <!-- Collect the nav links, forms, and other content for toggling -->
-			            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
-			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-			                <li class=" smooth-menu active"></li>
-			                    <li class=" smooth-menu"><a href="#education">education</a></li>
-			                    <li class="smooth-menu"><a href="#skills">skills</a></li>
-			                    <li class="smooth-menu"><a href="#experience">experience</a></li>
-			                    <li class="smooth-menu"><a href="#portfolio">portfolio</a></li>
-			                    <li class="smooth-menu"><a href="#contact">contact</a></li>
-			                </ul><!--/.nav -->
-			            </div><!-- /.navbar-collapse -->
-			        </div><!--/.container-->
-			    </nav><!--/nav-->
-			    <!-- End Navigation -->
-			</div><!--/.header-area-->
+    <!--style.css-->
+    <link rel="stylesheet" href="assets/css/style.css" />
 
-		    <div class="clearfix"></div>
+    <!--responsive.css-->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
 
-		</header><!-- /.top-area-->
-		<!-- top-area End -->
-	
-		<!--welcome-hero start -->
-		<section id="welcome-hero" class="welcome-hero">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 text-center">
-						<div class="header-text">
-							<h2>hi <span>,</span> i am <br> The Kiet <br> Ly <span>.</span>   </h2>
-							<p>Full-stack web developer</p>
-							<a href="assets/download/TheKietLy_Resume.pdf" download>download resume</a>
-						</div><!--/.header-text-->
-					</div><!--/.col-->
-				</div><!-- /.row-->
-			</div><!-- /.container-->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 
-		</section><!--/.welcome-hero-->
-		<!--welcome-hero end -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
-		<!--about start -->
-		<section id="about" class="about">
-			<div class="section-heading text-center">
-				<h2>about me</h2>
-			</div>
-			<div class="container">
-				<div class="about-content">
-					<div class="row">
-						<div class="col-sm-6">
-							<div class="single-about-txt">
-								<h3>
-									I am a passionate junior .NET Web developer. With over 6 months of experience in developing web applications using .NET Core, React.js, and Azure services, I am committed to creating clean, scalable, and robust applications. I am a quick learner and a collaborative team player, always eager to adopt new technologies and contribute effectively to the team.
-								</h3>
-								<p>
-									My journey into programming began at the age of 12 when I learned Pascal. That experience ignited a deep appreciation for the creative power of programming, enabling me to bring new ideas to life. This passion set me on the path to becoming a Software Developer. 
+  <body>
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
 
-Through my studies at the University of South Australia, I have specialised in .NET Core, complemented by experience with front-end frameworks like React.js. I focus on building clean, scalable, and robust applications.
+    <!-- top-area Start -->
+    <header class="top-area">
+      <div class="header-area">
+        <!-- Start Navigation -->
+        <nav
+          class="navbar navbar-default bootsnav navbar-fixed dark no-background"
+        >
+          <div class="container">
+            <!-- Start Header Navigation -->
+            <div class="navbar-header">
+              <button
+                type="button"
+                class="navbar-toggle"
+                data-toggle="collapse"
+                data-target="#navbar-menu"
+              >
+                <i class="fa fa-bars"></i>
+              </button>
+              <a class="navbar-brand" href="index.html">Kiet</a>
+            </div>
+            <!--/.navbar-header-->
+            <!-- End Header Navigation -->
 
-In addition to my academic learning, I am dedicated to continuously refining my skills. I regularly develop and deploy new features for my applications, testing them on Azure servers to ensure optimal performance and reliability.
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div
+              class="collapse navbar-collapse menu-ui-design"
+              id="navbar-menu"
+            >
+              <ul
+                class="nav navbar-nav navbar-right"
+                data-in="fadeInDown"
+                data-out="fadeOutUp"
+              >
+                <li class="smooth-menu active"></li>
+                <li class="smooth-menu"><a href="#education">education</a></li>
+                <li class="smooth-menu"><a href="#skills">skills</a></li>
+                <li class="smooth-menu">
+                  <a href="#experience">experience</a>
+                </li>
+                <li class="smooth-menu"><a href="#portfolio">portfolio</a></li>
+                <li class="smooth-menu"><a href="#contact">contact</a></li>
+              </ul>
+              <!--/.nav -->
+            </div>
+            <!-- /.navbar-collapse -->
+          </div>
+          <!--/.container-->
+        </nav>
+        <!--/nav-->
+        <!-- End Navigation -->
+      </div>
+      <!--/.header-area-->
 
-I am equally passionate about giving back to the community. Outside of coding and exploring .NET and Azure services, I volunteer as a retail assistant at the Red Cross, where I find balance and fulfillment.	
-								</p>
-								<div class="row">
-									<div class="col-sm-4">
-										<div class="single-about-add-info">
-											<h3>phone</h3>
-											<p>(+61) 435-209-568</p>
-										</div>
-									</div>
-									<div class="col-sm-4">
-										<div class="single-about-add-info">
-											<h3>email</h3>
-											<p>TheKietLy@outlook.com</p>
-										</div>
-									</div>
-									
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-offset-1 col-sm-5">
-							<div class="single-about-img">
-								<img src="assets/images/about/profile_image.jpg" alt="profile_image">
-								<div class="about-list-icon">
-									<ul>
-										<li>
-											<a href="https://www.facebook.com/profile.php?id=100028321744061">
-												<i  class="fa fa-facebook" aria-hidden="true"></i>
-											</a>
-										</li><!-- / li -->
-										<li>
-											<a href="https://www.linkedin.com/in/the-kiet-ly-unisa/">
-												<i  class="fa fa-linkedin" aria-hidden="true"></i>
-											</a>
-										</li><!-- / li -->
-										<li>
-											<a href="https://www.instagram.com/sammie_ltk/">
-												<i  class="fa fa-instagram" aria-hidden="true"></i>
-											</a>
-										</li><!-- / li -->
-									</ul><!-- / ul -->
-								</div><!-- /.about-list-icon -->
+      <div class="clearfix"></div>
+    </header>
+    <!-- /.top-area-->
+    <!-- top-area End -->
 
-							</div>
+    <!--welcome-hero start -->
+    <section id="welcome-hero" class="welcome-hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <div class="header-text">
+              <h2>
+                hi <span>,</span> i am <br />
+                The Kiet <br />
+                Ly <span>.</span>
+              </h2>
+              <p>Full-stack web developer</p>
+              <a href="assets/download/TheKietLyResume.pdf" download
+                >download resume</a
+              >
+            </div>
+            <!--/.header-text-->
+          </div>
+          <!--/.col-->
+        </div>
+        <!-- /.row-->
+      </div>
+      <!-- /.container-->
+    </section>
+    <!--/.welcome-hero-->
+    <!--welcome-hero end -->
 
-						</div>
-					</div>
-				</div>
-			</div>
-		</section><!--/.about-->
-		<!--about end -->
-		
-		<!--education start -->
-		<section id="education" class="education">
-			<div class="section-heading text-center">
-				<h2>education</h2>
-			</div>
-			<div class="container">
-				<div class="education-horizontal-timeline">
-					<div class="row">
-						<div class="col-sm-4">
-							<div class="single-horizontal-timeline">
-								<div class="experience-time">
-									<h2>2020 - 2022</h2>
-									<h3>bachelor <span>of </span> computer science</h3>
-								</div><!--/.experience-time-->
-								<div class="timeline-horizontal-border">
-									<i class="fa fa-circle" aria-hidden="true"></i>
-									<span class="single-timeline-horizontal"></span>
-								</div>
-								<div class="timeline">
-									<div class="timeline-content">
-										<h4 class="title">
-											monash university
-										</h4>
-										<h5>clayton, victoria</h5>
-										<p class="description">
-											Monash is a modern, global, research-intensive university, delivering education and research excellence in Australia and across the Indo-Pacific.
-We're making a positive impact on today's global challenges - whether that's by mitigating climate change, easing geopolitical insecurity or fostering healthy communities.	
-										</p>
-									</div><!--/.timeline-content-->
-								</div><!--/.timeline-->
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="single-horizontal-timeline">
-								<div class="experience-time">
-									<h2>2022 - 2024</h2>
-									<h3>bachelor <span>of </span> software development</h3>
-								</div><!--/.experience-time-->
-								<div class="timeline-horizontal-border">
-									<i class="fa fa-circle" aria-hidden="true"></i>
-									<span class="single-timeline-horizontal"></span>
-								</div>
-								<div class="timeline">
-									<div class="timeline-content">
-										<h4 class="title">
-											university of south australia
-										</h4>
-										<h5>mawson lakes, south australia</h5>
-										<p class="description">
-											The University of South Australia is Australia's University of Enterprise. Our culture of innovation is anchored around global and national links to academic, research and industry partners. 	
-										</p>
-									</div><!--/.timeline-content-->
-								</div><!--/.timeline-->
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<div class="single-horizontal-timeline">
-								<div class="experience-time">
-									<h2>2024 - 2025</h2>
-									<h3>professional year program</h3>
-								</div><!--/.experience-time-->
-								<div class="timeline-horizontal-border">
-									<i class="fa fa-circle" aria-hidden="true"></i>
-									<span class="single-timeline-horizontal spacial-horizontal-line
-									"></span>
-								</div>
-								<div class="timeline">
-									<div class="timeline-content">
-										<h4 class="title">
-											performance education
-										</h4>
-										<h5>adelaide, south australia</h5>
-										<p class="description">
-											Performance Education is on a mission to revolutionise graduate employability in Australia, equipping our students with the tools for success through training and quality industry networks.	
-										</p>
-									</div><!--/.timeline-content-->
-								</div><!--/.timeline-->
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+    <!--about start -->
+    <section id="about" class="about">
+      <div class="section-heading text-center">
+        <h2>about me</h2>
+      </div>
+      <div class="container">
+        <div class="about-content">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="single-about-txt">
+                <h3>
+                  I am a passionate Graduate Web developer. With over 6 months
+                  of experience in developing web applications using React.js,
+                  Node.js and TypeScript, I am committed to creating clean,
+                  scalable, and robust applications. I am a quick learner and a
+                  collaborative team player, always eager to adopt new
+                  technologies and contribute effectively to the team.
+                </h3>
+                <p>
+                  My journey into programming began at the age of 12 when I
+                  learned Pascal. That experience ignited a deep appreciation
+                  for the creative power of programming, enabling me to bring
+                  new ideas to life. This passion set me on the path to becoming
+                  a Software Developer. Through my studies at the University of
+                  South Australia, I have specialised in .NET Core, complemented
+                  by experience with front-end frameworks like React.js. After I
+                  graduated, I have been developing Mira with React.js and a bit
+                  of Nodejs since January, 2025. I focus on building clean,
+                  scalable, and robust applications. In addition to my academic
+                  learning, I am dedicated to continuously refining my skills. I
+                  am equally passionate about giving back to the community.
+                  Outside of coding and exploring .NET, React.js, Node.js and
+                  Azure services, I volunteered as a retail assistant at the Red
+                  Cross, where I find balance and fulfillment.
+                </p>
+                <div class="row">
+                  <div class="col-sm-4">
+                    <div class="single-about-add-info">
+                      <h3>phone</h3>
+                      <p>(+61) 435-209-568</p>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="single-about-add-info">
+                      <h3>email</h3>
+                      <p>TheKietLy@outlook.com</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-offset-1 col-sm-5">
+              <div class="single-about-img">
+                <img
+                  src="assets/images/about/portfolio-profile.jpg"
+                  alt="profile_image"
+                  style="max-width: 100%; height: auto"
+                />
+                <div class="about-list-icon">
+                  <ul>
+                    <li>
+                      <a
+                        href="https://www.facebook.com/profile.php?id=100028321744061"
+                      >
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <!-- / li -->
+                    <li>
+                      <a href="https://www.linkedin.com/in/the-kiet-ly-unisa/">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <!-- / li -->
+                    <li>
+                      <a href="https://www.instagram.com/sammie_ltk/">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <!-- / li -->
+                  </ul>
+                  <!-- / ul -->
+                </div>
+                <!-- /.about-list-icon -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/.about-->
+    <!--about end -->
 
-		</section><!--/.education-->
-		<!--education end -->
+    <!--education start -->
+    <section id="education" class="education">
+      <div class="section-heading text-center">
+        <h2>education</h2>
+      </div>
+      <div class="container">
+        <div class="education-horizontal-timeline">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="single-horizontal-timeline">
+                <div class="experience-time">
+                  <h2>2020 - 2022</h2>
+                  <h3>bachelor <span>of </span> computer science</h3>
+                </div>
+                <!--/.experience-time-->
+                <div class="timeline-horizontal-border">
+                  <i class="fa fa-circle" aria-hidden="true"></i>
+                  <span class="single-timeline-horizontal"></span>
+                </div>
+                <div class="timeline">
+                  <div class="timeline-content">
+                    <h4 class="title">monash university</h4>
+                    <h5>clayton, victoria</h5>
+                    <p class="description">
+                      Monash is a modern, global, research-intensive university,
+                      delivering education and research excellence in Australia
+                      and across the Indo-Pacific. We're making a positive
+                      impact on today's global challenges - whether that's by
+                      mitigating climate change, easing geopolitical insecurity
+                      or fostering healthy communities.
+                    </p>
+                  </div>
+                  <!--/.timeline-content-->
+                </div>
+                <!--/.timeline-->
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="single-horizontal-timeline">
+                <div class="experience-time">
+                  <h2>2022 - 2024</h2>
+                  <h3>bachelor <span>of </span> software development</h3>
+                </div>
+                <!--/.experience-time-->
+                <div class="timeline-horizontal-border">
+                  <i class="fa fa-circle" aria-hidden="true"></i>
+                  <span class="single-timeline-horizontal"></span>
+                </div>
+                <div class="timeline">
+                  <div class="timeline-content">
+                    <h4 class="title">university of south australia</h4>
+                    <h5>mawson lakes, south australia</h5>
+                    <p class="description">
+                      The University of South Australia is Australia's
+                      University of Enterprise. Our culture of innovation is
+                      anchored around global and national links to academic,
+                      research and industry partners.
+                    </p>
+                  </div>
+                  <!--/.timeline-content-->
+                </div>
+                <!--/.timeline-->
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="single-horizontal-timeline">
+                <div class="experience-time">
+                  <h2>2024 - 2025</h2>
+                  <h3>professional year program</h3>
+                </div>
+                <!--/.experience-time-->
+                <div class="timeline-horizontal-border">
+                  <i class="fa fa-circle" aria-hidden="true"></i>
+                  <span
+                    class="single-timeline-horizontal spacial-horizontal-line"
+                  ></span>
+                </div>
+                <div class="timeline">
+                  <div class="timeline-content">
+                    <h4 class="title">performance education</h4>
+                    <h5>adelaide, south australia</h5>
+                    <p class="description">
+                      Performance Education is on a mission to revolutionise
+                      graduate employability in Australia, equipping our
+                      students with the tools for success through training and
+                      quality industry networks.
+                    </p>
+                  </div>
+                  <!--/.timeline-content-->
+                </div>
+                <!--/.timeline-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--/.education-->
+    <!--education end -->
 
-		<!--skills start -->
-		<section id="skills" class="skills">
-				<div class="skill-content">
-					<div class="section-heading text-center">
-						<h2>skills</h2>
-					</div>
-					<div class="container">
-						<div class="row">
-							<div class="col-md-6">
-								<div class="single-skill-content">
-									<div class="barWrapper">
-										<span class="progressText">HTML</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-												<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100">
-													  
-												</div>
-											</div>
-											<h3>90%</h3>	
-										</div>
-									</div><!-- /.barWrapper -->
-									<div class="barWrapper">
-										<span class="progressText">CSS</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-											   <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="10" aria-valuemax="100">
-												    
-											   </div>
-											</div>
-											<h3>85%</h3>	
-										</div>
-									</div><!-- /.barWrapper -->
-									<div class="barWrapper">
-										<span class="progressText">JavaScript</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-											   <div class="progress-bar" role="progressbar" aria-valuenow="97" aria-valuemin="10" aria-valuemax="100">
-												   
-											   </div>
-											</div>
-											<h3>97%</h3>	
-										</div>
-									</div><!-- /.barWrapper -->
-									<div class="barWrapper">
-										<span class="progressText">.NET</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-											   <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" >
-												    
-											   </div>
-											</div>
-											<h3>90%</h3>	
-										</div>
-									</div><!-- /.barWrapper -->
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="single-skill-content">
-									<div class="barWrapper">
-										<span class="progressText"></span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-												<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" >
-													
-												</div>
-											</div>
-											<h3>90%</h3>	
-										</div>
-									</div><!-- /.barWrapper -->
-									<div class="barWrapper">
-										<span class="progressText">React.js</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-											   <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="10" aria-valuemax="100" >
-												    
-											   </div>
-											</div>
-											<h3>60%</h3>	
-										</div>
-									</div><!-- /.barWrapper -->
-									<div class="barWrapper">
-										<span class="progressText">communication</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-											   <div class="progress-bar" role="progressbar" aria-valuenow="97" aria-valuemin="10" aria-valuemax="100" >
-												   
-											   </div>
-											</div>
-											<h3>97%</h3>	
-										</div>
-									</div><!-- /.barWrapper -->
-									<div class="barWrapper">
-										<span class="progressText"> problem-solving</span>
-										<div class="single-progress-txt">
-											<div class="progress ">
-											   <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="10" aria-valuemax="100" >
-												    
-											   </div>
-											</div>
-											<h3>90%</h3>	
-										</div>
-									</div><!-- /.barWrapper -->
-								</div>
-							</div>
-						</div><!-- /.row -->
-					</div>	<!-- /.container -->		
-				</div><!-- /.skill-content-->
+    <!--skills start -->
+    <section id="skills" class="skills">
+      <div class="skill-content">
+        <div class="section-heading text-center">
+          <h2>skills</h2>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="single-skill-content">
+                <div class="barWrapper">
+                  <span class="progressText">HTML</span>
+                  <div class="single-progress-txt">
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="90"
+                        aria-valuemin="10"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                    <h3>90%</h3>
+                  </div>
+                </div>
+                <!-- /.barWrapper -->
+                <div class="barWrapper">
+                  <span class="progressText">CSS</span>
+                  <div class="single-progress-txt">
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="85"
+                        aria-valuemin="10"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                    <h3>85%</h3>
+                  </div>
+                </div>
+                <!-- /.barWrapper -->
+                <div class="barWrapper">
+                  <span class="progressText">JavaScript</span>
+                  <div class="single-progress-txt">
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="97"
+                        aria-valuemin="10"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                    <h3>97%</h3>
+                  </div>
+                </div>
+                <!-- /.barWrapper -->
+                <div class="barWrapper">
+                  <span class="progressText">.NET</span>
+                  <div class="single-progress-txt">
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="70"
+                        aria-valuemin="10"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                    <h3>70%</h3>
+                  </div>
+                </div>
+                <!-- /.barWrapper -->
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="single-skill-content">
+                <div class="barWrapper">
+                  <span class="progressText">TypeScript</span>
+                  <div class="single-progress-txt">
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="90"
+                        aria-valuemin="10"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                    <h3>90%</h3>
+                  </div>
+                </div>
+                <!-- /.barWrapper -->
+                <div class="barWrapper">
+                  <span class="progressText">React.js</span>
+                  <div class="single-progress-txt">
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="80"
+                        aria-valuemin="10"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                    <h3>80%</h3>
+                  </div>
+                </div>
+                <!-- /.barWrapper -->
+                <div class="barWrapper">
+                  <span class="progressText">communication</span>
+                  <div class="single-progress-txt">
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="97"
+                        aria-valuemin="10"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                    <h3>97%</h3>
+                  </div>
+                </div>
+                <!-- /.barWrapper -->
+                <div class="barWrapper">
+                  <span class="progressText"> problem-solving</span>
+                  <div class="single-progress-txt">
+                    <div class="progress">
+                      <div
+                        class="progress-bar"
+                        role="progressbar"
+                        aria-valuenow="90"
+                        aria-valuemin="10"
+                        aria-valuemax="100"
+                      ></div>
+                    </div>
+                    <h3>90%</h3>
+                  </div>
+                </div>
+                <!-- /.barWrapper -->
+              </div>
+            </div>
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+      </div>
+      <!-- /.skill-content-->
+    </section>
+    <!--/.skills-->
+    <!--skills end -->
 
-		</section><!--/.skills-->
-		<!--skills end -->
+    <!--experience start -->
+    <section id="experience" class="experience">
+      <div class="section-heading text-center">
+        <h2>experience</h2>
+      </div>
+      <div class="container">
+        <div class="experience-content">
+          <div class="main-timeline">
+            <ul>
+              <li>
+                <div class="single-timeline-box fix">
+                  <div class="row">
+                    <div class="col-md-5">
+                      <div class="timeline">
+                        <div class="timeline-content text-right">
+                          <h4 class="title">Mira</h4>
+                          <h5>Sydney</h5>
+                          <p class="description">
+                            Developing Mira as a Front-end developer with
+                            React.js, TypeScript and a bit of Node.js. I focus
+                            on developing a robust UI/UX experience through
+                            Jest/React testing library and manual testing with
+                            our team. I am also implementing full Stripe
+                            integration, enabling users to subscribe to Mira's
+                            subscription plans.
+                          </p>
+                        </div>
+                        <!--/.timeline-content-->
+                      </div>
+                      <!--/.timeline-->
+                    </div>
+                    <!--/.col-->
+                    <div class="col-md-offset-1 col-md-5 experience-time-main">
+                      <div class="experience-time">
+                        <h2>
+                          <span
+                            ><i class="fa fa-circle" aria-hidden="true"></i
+                          ></span>
+                          January 2025 - present
+                        </h2>
+                        <h3>Front-end developer internship</h3>
+                      </div>
+                      <!--/.experience-time-->
+                    </div>
+                    <!--/.col-->
+                  </div>
+                </div>
+                <!--/.single-timeline-box-->
+              </li>
+              <li>
+                <div class="single-timeline-box fix">
+                  <div class="row">
+                    <div class="col-md-5">
+                      <div class="experience-time text-right">
+                        <h2>November 2024 - Feburary 2025</h2>
+                        <h3>Retail assistant</h3>
+                      </div>
+                      <!--/.experience-time-->
+                    </div>
+                    <!--/.col-->
+                    <div class="col-md-offset-1 col-md-5">
+                      <div class="timeline">
+                        <div class="timeline-content">
+                          <h4 class="title">
+                            <span
+                              ><i class="fa fa-circle" aria-hidden="true"></i
+                            ></span>
+                            australian red cross shop
+                          </h4>
+                          <h5>adelaide, south australia</h5>
+                          <p class="description">
+                            Contributed to the Kidman Park Red Cross Shop's
+                            achievement of $1 million in revenue during the last
+                            financial year by delivering exceptional customer
+                            service and ensuring the store was consistently
+                            clean and well-organised.
+                          </p>
+                        </div>
+                        <!--/.timeline-content-->
+                      </div>
+                      <!--/.timeline-->
+                    </div>
+                    <!--/.col-->
+                  </div>
+                </div>
+                <!--/.single-timeline-box-->
+              </li>
 
-		<!--experience start -->
-		<section id="experience" class="experience">
-			<div class="section-heading text-center">
-				<h2>experience</h2>
-			</div>
-			<div class="container">
-				<div class="experience-content">
-						<div class="main-timeline">
-							<ul>
-								<li>
-									<div class="single-timeline-box fix">
-										<div class="row">
-											<div class="col-md-5">
-												<div class="experience-time text-right">
-													<h2>November2024 - Present</h2>
-													<h3>Retail assistant</h3>
-												</div><!--/.experience-time-->
-											</div><!--/.col-->
-											<div class="col-md-offset-1 col-md-5">
-												<div class="timeline">
-													<div class="timeline-content">
-														<h4 class="title">
-															<span><i class="fa fa-circle" aria-hidden="true"></i></span>
-															australian red cross shop
-														</h4>
-														<h5>adelaide, south australia</h5>
-														<p class="description">
-															Contributed to the Kidman Park Red Cross Shop's achievement of $1 million in revenue during the last financial year by delivering exceptional customer service and ensuring the store was consistently clean and well-organised.	
-														</p>
-													</div><!--/.timeline-content-->
-												</div><!--/.timeline-->
-											</div><!--/.col-->
-										</div>
-									</div><!--/.single-timeline-box-->
-								</li>
+              <li>
+                <div class="single-timeline-box fix">
+                  <div class="row">
+                    <div class="col-md-5">
+                      <div class="timeline">
+                        <div class="timeline-content text-right">
+                          <h4 class="title">University of South Australia</h4>
+                          <h5>Mawson lakes, South Australia</h5>
+                          <p class="description">
+                            Led a team of 2 to successfully develop a 3D roadmap
+                            website that interactively displays all courses
+                            within any program. Utilised Agile methodologies and
+                            technologies such as HTML5, CSS, JavaScript,
+                            Three.js, React.js, and XML as a local database in a
+                            professional environment.
+                          </p>
+                        </div>
+                        <!--/.timeline-content-->
+                      </div>
+                      <!--/.timeline-->
+                    </div>
+                    <!--/.col-->
+                    <div class="col-md-offset-1 col-md-5 experience-time-main">
+                      <div class="experience-time">
+                        <h2>
+                          <span
+                            ><i class="fa fa-circle" aria-hidden="true"></i
+                          ></span>
+                          March 2024 - Jun 2024
+                        </h2>
+                        <h3>work placement</h3>
+                      </div>
+                      <!--/.experience-time-->
+                    </div>
+                    <!--/.col-->
+                  </div>
+                </div>
+                <!--/.single-timeline-box-->
+              </li>
+            </ul>
+          </div>
+          <!--.main-timeline-->
+        </div>
+        <!--.experience-content-->
+      </div>
+    </section>
+    <!--/.experience-->
+    <!--experience end -->
+    <!--portfolio start -->
+    <section id="portfolio" class="portfolio">
+      <div class="portfolio-details">
+        <div class="section-heading text-center">
+          <h2>portfolio</h2>
+        </div>
+        <div class="container">
+          <div class="portfolio-content">
+            <div class="isotope">
+              <div class="row">
+                <div class="col-sm-4">
+                  <div class="item">
+                    <img
+                      src="assets/images/portfolio/assorted-brazilian-appetizers.jpg"
+                      alt="portfolio image"
+                    />
+                    <div class="isotope-overlay">
+                      <a href="https://github.com/thekietly/sgv-restaurant">
+                        SGV Restaurant
+                      </a>
+                    </div>
+                    <!-- /.isotope-overlay -->
+                  </div>
+                  <!-- /.item -->
+                  <div class="item">
+                    <img
+                      src="assets/images/portfolio/simon-says-big.jpg"
+                      alt="portfolio image"
+                    />
+                    <div class="isotope-overlay">
+                      <a href="https://github.com/thekietly/Simon-game">
+                        Simon Says
+                      </a>
+                    </div>
+                    <!-- /.isotope-overlay -->
+                  </div>
+                  <!-- /.item -->
+                </div>
+                <!-- /.col -->
 
-								<li>
-									<div class="single-timeline-box fix">
-										<div class="row">
-											<div class="col-md-5">
-												<div class="timeline">
-													<div class="timeline-content text-right">
-														<h4 class="title">
-															University of South Australia
-														</h4>
-														<h5>Mawson lakes, South Australia</h5>
-														<p class="description">
-															Led a team of 2 to successfully develop a 3D roadmap website that interactively displays all courses within any program. Utilised Agile methodologies and technologies such as HTML5, CSS, JavaScript, Three.js, React.js, and XML as a local database in a professional environment.	
-														</p>
-													</div><!--/.timeline-content-->
-												</div><!--/.timeline-->
-											</div><!--/.col-->
-											<div class="col-md-offset-1 col-md-5 experience-time-main">
-												<div class="experience-time">
-													<h2>
-														<span><i class="fa fa-circle" aria-hidden="true"></i></span>
-														March 2024 - Jun 2024
-													</h2>
-													<h3>work placement</h3>
-												</div><!--/.experience-time-->
-											</div><!--/.col-->
-										</div>
-									</div><!--/.single-timeline-box-->
-								</li>
-							</ul>
-						</div><!--.main-timeline-->
-					</div><!--.experience-content-->
-			</div>
+                <div class="col-sm-4">
+                  <div class="item">
+                    <img
+                      src="assets/images/portfolio/room.jpg"
+                      alt="portfolio image"
+                    />
+                    <div class="isotope-overlay">
+                      <a
+                        href="https://github.com/thekietly/simplified-hotel-management"
+                      >
+                        Hotel Management
+                      </a>
+                    </div>
+                    <!-- /.isotope-overlay -->
+                  </div>
+                  <!-- /.item -->
+                </div>
+                <!-- /.col -->
 
-		</section><!--/.experience-->
-		<!--experience end -->
-		<!--portfolio start -->
-		<section id="portfolio" class="portfolio">
-			<div class="portfolio-details">
-				<div class="section-heading text-center">
-					<h2>portfolio</h2>
-				</div>
-				<div class="container">
-					<div class="portfolio-content">
-						<div class="isotope">
-							<div class="row">
+                <div class="col-sm-4">
+                  <div class="item">
+                    <img
+                      src="assets/images/portfolio/band-name-gen.jpg"
+                      alt="portfolio image"
+                    />
+                    <div class="isotope-overlay">
+                      <a
+                        href="https://github.com/thekietly/Band-name-generator"
+                      >
+                        band name generator
+                      </a>
+                    </div>
+                    <!-- /.isotope-overlay -->
+                  </div>
+                  <!-- /.item -->
+                  <div class="item">
+                    <img
+                      src="assets/images/portfolio/gradient-stock-market-concept_23-2149166910.jpg"
+                      alt="portfolio image"
+                    />
+                    <div class="isotope-overlay">
+                      <a href="https://github.com/thekietly/TradeStock">
+                        trade stock simulator
+                      </a>
+                    </div>
+                    <!-- /.isotope-overlay -->
+                  </div>
+                  <!-- /.item -->
+                </div>
+                <!-- /.col -->
+              </div>
+              <!-- /.row -->
+            </div>
+            <!--/.isotope-->
+          </div>
+          <!--/.gallery-content-->
+        </div>
+        <!--/.container-->
+      </div>
+      <!--/.portfolio-details-->
+    </section>
+    <!--/.portfolio-->
+    <!--portfolio end -->
 
-								<div class="col-sm-4">
-									<div class="item">
-										<img src="assets/images/portfolio/assorted-brazilian-appetizers.jpg" alt="portfolio image"/>
-										<div class="isotope-overlay">
-											<a href="https://github.com/thekietly/sgv-restaurant">
-												SGV Restaurant
-											</a>
-										</div><!-- /.isotope-overlay -->
-									</div><!-- /.item -->
-									<div class="item">
-										<img src="assets/images/portfolio/simon-says-big.jpg" alt="portfolio image" />
-										<div class="isotope-overlay">
-											<a href="https://github.com/thekietly/Simon-game">
-												Simon Says
-											</a>
-										</div><!-- /.isotope-overlay -->
-									</div><!-- /.item -->
-								</div><!-- /.col -->
+    <!--contact start -->
+    <section id="contact" class="contact">
+      <div class="section-heading text-center">
+        <h2>contact me</h2>
+      </div>
+      <div class="container">
+        <div class="contact-content">
+          <div class="row">
+            <div class="col-md-offset-1 col-md-5 col-sm-6">
+              <div class="single-contact-box">
+                <div class="contact-form">
+                  <form>
+                    <div class="row">
+                      <div class="col-sm-6 col-xs-12">
+                        <div class="form-group">
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="name"
+                            placeholder="Name*"
+                            name="name"
+                          />
+                        </div>
+                        <!--/.form-group-->
+                      </div>
+                      <!--/.col-->
+                      <div class="col-sm-6 col-xs-12">
+                        <div class="form-group">
+                          <input
+                            type="email"
+                            class="form-control"
+                            id="email"
+                            placeholder="Email*"
+                            name="email"
+                          />
+                        </div>
+                        <!--/.form-group-->
+                      </div>
+                      <!--/.col-->
+                    </div>
+                    <!--/.row-->
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <div class="form-group">
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="subject"
+                            placeholder="Subject"
+                            name="subject"
+                          />
+                        </div>
+                        <!--/.form-group-->
+                      </div>
+                      <!--/.col-->
+                    </div>
+                    <!--/.row-->
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <div class="form-group">
+                          <textarea
+                            class="form-control"
+                            rows="8"
+                            id="comment"
+                            placeholder="Message"
+                          ></textarea>
+                        </div>
+                        <!--/.form-group-->
+                      </div>
+                      <!--/.col-->
+                    </div>
+                    <!--/.row-->
+                    <div class="row">
+                      <div class="col-sm-12">
+                        <div class="single-contact-btn">
+                          <a class="contact-btn" href="#" role="button"
+                            >submit</a
+                          >
+                        </div>
+                        <!--/.single-single-contact-btn-->
+                      </div>
+                      <!--/.col-->
+                    </div>
+                    <!--/.row-->
+                  </form>
+                  <!--/form-->
+                </div>
+                <!--/.contact-form-->
+              </div>
+              <!--/.single-contact-box-->
+            </div>
+            <!--/.col-->
+            <div class="col-md-offset-1 col-md-5 col-sm-6">
+              <div class="single-contact-box">
+                <div class="contact-adress">
+                  <div class="contact-add-head">
+                    <h3>The Kiet Ly</h3>
+                    <p>Full-stack .NET developer</p>
+                  </div>
+                  <div class="contact-add-info">
+                    <div class="single-contact-add-info">
+                      <h3>phone</h3>
+                      <p>(+61) 435-209-568</p>
+                    </div>
+                    <div class="single-contact-add-info">
+                      <h3>email</h3>
+                      <p>TheKietLy@outlook.com</p>
+                    </div>
+                    <div class="single-contact-add-info">
+                      <h3>Github</h3>
+                      <a href="https://github.com/thekietly"
+                        ><p>https://github.com/thekietly</p></a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!--/.contact-adress-->
+                <div class="hm-foot-icon">
+                  <ul>
+                    <li>
+                      <a
+                        href="https://www.facebook.com/profile.php?id=100028321744061"
+                        ><i class="fa fa-facebook"></i
+                      ></a>
+                    </li>
+                    <!--/li-->
+                    <li>
+                      <a href="https://www.linkedin.com/in/the-kiet-ly-unisa/"
+                        ><i class="fa fa-linkedin"></i
+                      ></a>
+                    </li>
+                    <!--/li-->
+                    <li>
+                      <a href="https://www.instagram.com/sammie_ltk/"
+                        ><i class="fa fa-instagram"></i
+                      ></a>
+                    </li>
+                    <!--/li-->
+                  </ul>
+                  <!--/ul-->
+                </div>
+                <!--/.hm-foot-icon-->
+              </div>
+              <!--/.single-contact-box-->
+            </div>
+            <!--/.col-->
+          </div>
+          <!--/.row-->
+        </div>
+        <!--/.contact-content-->
+      </div>
+      <!--/.container-->
+    </section>
+    <!--/.contact-->
+    <!--contact end -->
 
-								<div class="col-sm-4">
-									<div class="item">
-										<img src="assets/images/portfolio/room.jpg" alt="portfolio image"/>
-										<div class="isotope-overlay">
-											<a href="https://github.com/thekietly/simplified-hotel-management">
-												Hotel Management
-											</a>
-										</div><!-- /.isotope-overlay -->
-									</div><!-- /.item -->
-								</div><!-- /.col -->
+    <!--footer-copyright start-->
+    <footer id="footer-copyright" class="footer-copyright">
+      <div class="container">
+        <div class="hm-footer-copyright text-center">
+          <p>
+            &copy; copyright The Kiet Lyx. design and developed by
+            <a href="https://www.themesine.com/">themesine</a>
+          </p>
+          <!--/p-->
+        </div>
+        <!--/.text-center-->
+      </div>
+      <!--/.container-->
 
-								<div class="col-sm-4">
-									<div class="item">
-										<img src="assets/images/portfolio/band-name-gen.jpg" alt="portfolio image"/>
-										<div class="isotope-overlay">
-											<a href="https://github.com/thekietly/Band-name-generator">
-												band name generator
-											</a>
-										</div><!-- /.isotope-overlay -->
-									</div><!-- /.item -->
-									<div class="item">
-										<img src="assets/images/portfolio/gradient-stock-market-concept_23-2149166910.jpg" alt="portfolio image"/>
-										<div class="isotope-overlay">
-											<a href="https://github.com/thekietly/TradeStock">
-												trade stock simulator
-											</a>
-										</div><!-- /.isotope-overlay -->
-									</div><!-- /.item -->
-								</div><!-- /.col -->
-							</div><!-- /.row -->
-						</div><!--/.isotope-->
-					</div><!--/.gallery-content-->
-				</div><!--/.container-->
-			</div><!--/.portfolio-details-->
+      <div id="scroll-Top">
+        <div class="return-to-top">
+          <i class="fa fa-angle-up" id="scroll-top"></i>
+        </div>
+      </div>
+      <!--/.scroll-Top-->
+    </footer>
+    <!--/.footer-copyright-->
+    <!--footer-copyright end-->
 
-		</section><!--/.portfolio-->
-		<!--portfolio end -->
+    <!-- Include all js compiled plugins (below), or include individual files as needed -->
 
-		<!--contact start -->
-		<section id="contact" class="contact">
-			<div class="section-heading text-center">
-				<h2>contact me</h2>
-			</div>
-			<div class="container">
-				<div class="contact-content">
-					<div class="row">
-						<div class="col-md-offset-1 col-md-5 col-sm-6">
-							<div class="single-contact-box">
-								<div class="contact-form">
-									<form>
-										<div class="row">
-											<div class="col-sm-6 col-xs-12">
-												<div class="form-group">
-												  <input type="text" class="form-control" id="name" placeholder="Name*" name="name">
-												</div><!--/.form-group-->
-											</div><!--/.col-->
-											<div class="col-sm-6 col-xs-12">
-												<div class="form-group">
-													<input type="email" class="form-control" id="email" placeholder="Email*" name="email">
-												</div><!--/.form-group-->
-											</div><!--/.col-->
-										</div><!--/.row-->
-										<div class="row">
-											<div class="col-sm-12">
-												<div class="form-group">
-													<input type="text" class="form-control" id="subject" placeholder="Subject" name="subject">
-												</div><!--/.form-group-->
-											</div><!--/.col-->
-										</div><!--/.row-->
-										<div class="row">
-											<div class="col-sm-12">
-												<div class="form-group">
-													<textarea class="form-control" rows="8" id="comment" placeholder="Message" ></textarea>
-												</div><!--/.form-group-->
-											</div><!--/.col-->
-										</div><!--/.row-->
-										<div class="row">
-											<div class="col-sm-12">
-												<div class="single-contact-btn">
-													<a class="contact-btn" href="#" role="button">submit</a>
-												</div><!--/.single-single-contact-btn-->
-											</div><!--/.col-->
-										</div><!--/.row-->
-									</form><!--/form-->
-								</div><!--/.contact-form-->
-							</div><!--/.single-contact-box-->
-						</div><!--/.col-->
-						<div class="col-md-offset-1 col-md-5 col-sm-6">
-							<div class="single-contact-box">
-								<div class="contact-adress">
-									<div class="contact-add-head">
-										<h3>The Kiet Ly</h3>
-										<p>Full-stack .NET developer</p>
-									</div>
-									<div class="contact-add-info">
-										<div class="single-contact-add-info">
-											<h3>phone</h3>
-											<p>(+61) 435-209-568</p>
-										</div>
-										<div class="single-contact-add-info">
-											<h3>email</h3>
-											<p>TheKietLy@outlook.com</p>
-										</div>
-										<div class="single-contact-add-info">
-											<h3>Github</h3>
-											<a href="https://github.com/thekietly"><p>https://github.com/thekietly</p></a>
-										</div>
-									</div>
-								</div><!--/.contact-adress-->
-								<div class="hm-foot-icon">
-									<ul>		
-										<li><a href="https://www.facebook.com/profile.php?id=100028321744061"><i class="fa fa-facebook"></i></a></li><!--/li-->
-										<li><a href="https://www.linkedin.com/in/the-kiet-ly-unisa/"><i class="fa fa-linkedin"></i></a></li><!--/li-->
-										<li><a href="https://www.instagram.com/sammie_ltk/"><i class="fa fa-instagram"></i></a></li><!--/li-->
-									</ul><!--/ul-->
-								</div><!--/.hm-foot-icon-->
-							</div><!--/.single-contact-box-->
-						</div><!--/.col-->
-					</div><!--/.row-->
-				</div><!--/.contact-content-->
-			</div><!--/.container-->
+    <script src="assets/js/jquery.js"></script>
 
-		</section><!--/.contact-->
-		<!--contact end -->
+    <!--modernizr.min.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 
-		<!--footer-copyright start-->
-		<footer id="footer-copyright" class="footer-copyright">
-			<div class="container">
-				<div class="hm-footer-copyright text-center">
-					<p>
-						&copy; copyright The Kiet Lyx. design and developed by <a href="https://www.themesine.com/">themesine</a>
-					</p><!--/p-->
-				</div><!--/.text-center-->
-			</div><!--/.container-->
+    <!--bootstrap.min.js-->
+    <script src="assets/js/bootstrap.min.js"></script>
 
-			<div id="scroll-Top">
-				<div class="return-to-top">
-					<i class="fa fa-angle-up " id="scroll-top" ></i>
-				</div>
-				
-			</div><!--/.scroll-Top-->
-			
-        </footer><!--/.footer-copyright-->
-		<!--footer-copyright end-->
-		
-		<!-- Include all js compiled plugins (below), or include individual files as needed -->
+    <!-- bootsnav js -->
+    <script src="assets/js/bootsnav.js"></script>
 
-		<script src="assets/js/jquery.js"></script>
-        
-        <!--modernizr.min.js-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-		
-		<!--bootstrap.min.js-->
-        <script src="assets/js/bootstrap.min.js"></script>
-		
-		<!-- bootsnav js -->
-		<script src="assets/js/bootsnav.js"></script>
-		
-		<!-- jquery.sticky.js -->
-		<script src="assets/js/jquery.sticky.js"></script>
-		
-		<!-- for progress bar start-->
+    <!-- jquery.sticky.js -->
+    <script src="assets/js/jquery.sticky.js"></script>
 
-		<!-- progressbar js -->
-		<script src="assets/js/progressbar.js"></script>
+    <!-- for progress bar start-->
 
-		<!-- appear js -->
-		<script src="assets/js/jquery.appear.js"></script>
+    <!-- progressbar js -->
+    <script src="assets/js/progressbar.js"></script>
 
-		<!-- for progress bar end -->
+    <!-- appear js -->
+    <script src="assets/js/jquery.appear.js"></script>
 
-		<!--owl.carousel.js-->
-        <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- for progress bar end -->
 
+    <!--owl.carousel.js-->
+    <script src="assets/js/owl.carousel.min.js"></script>
 
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-		
-        
-        <!--Custom JS-->
-        <script src="assets/js/custom.js"></script>
-        
-    </body>
-	
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+    <!--Custom JS-->
+    <script src="assets/js/custom.js"></script>
+  </body>
 </html>
